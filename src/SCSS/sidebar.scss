@@ -1,5 +1,30 @@
 .sideBar {
-    p {
-        background-color: $primary-color;
+    background-color: $font-color;
+    padding: 1rem;
+    height: 100vh;
+}
+
+.projects {
+    h2 {
+        margin-bottom: 1rem;
+    }
+    button {
+        margin-top: 0rem;
+        padding-left: 1.5rem;
     }
 }
+
+button {
+    background-color: inherit;
+    color: $secondary-color;
+    border: none;
+    color: inherit;
+    font-family: inherit;
+    font-size: 1.25rem;
+    outline: none;
+    width: 100%;
+    padding: 0.5rem;
+    text-align: left;
+    font-weight: bold;
+    }
+

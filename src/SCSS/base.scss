@@ -1,1 +1,41 @@
-$primary-color: #5c4a4a;
+$primary-color: #EDCBD2;
+$font-color: #E3856B;
+$secondary-color: #80C4B7;
+
+html {
+    font-size: 62.5%;
+    font-size: 16px;
+
+    @media (max-width: 1200px) {
+        font-size: 62.5%; // 1 rem = 10 px (browser default is 16)
+    }
+
+    @media (max-width: 1000px) {
+        font-size: 56.75%; // 1 rem = 9 px (browser default is 16)
+    }
+
+    @media (max-width: 800px) {
+        font-size: 50%; // 1 rem = 8 px (browser default is 16)
+    }
+
+    @media (max-width: 700px) {
+        font-size: 43.75%; // 1 rem = 8 px (browser default is 16)
+    }
+
+    @media (max-width: 400px) {
+        // font-size: 40%; // 1 rem = 7 px (browser default is 16)
+    }
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    color: $primary-color;
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 21rem 1fr;
+}
