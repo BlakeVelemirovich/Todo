@@ -1,0 +1,12 @@
+.check-button {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    color: #000000;
+    padding: 10px 20px;
+  }
+  
+  .check-button.checked {
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: line-through;
+  }

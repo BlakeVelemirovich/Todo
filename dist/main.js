@@ -1,1 +1,1 @@
-(()=>{"use strict";console.log("hello world")})();
+(()=>{"use strict";document.querySelector(".check-button").addEventListener("click",(function(){this.classList.toggle("checked")}))})();

@@ -7,24 +7,21 @@ html {
     font-size: 16px;
 
     @media (max-width: 1200px) {
-        font-size: 62.5%; // 1 rem = 10 px (browser default is 16)
+        font-size: 82.5%; 
     }
 
     @media (max-width: 1000px) {
-        font-size: 56.75%; // 1 rem = 9 px (browser default is 16)
+        font-size: 75.75%; 
     }
 
     @media (max-width: 800px) {
-        font-size: 50%; // 1 rem = 8 px (browser default is 16)
+        font-size: 70%; 
     }
 
     @media (max-width: 700px) {
-        font-size: 43.75%; // 1 rem = 8 px (browser default is 16)
+        font-size: 63.75%; 
     }
 
-    @media (max-width: 400px) {
-        // font-size: 40%; // 1 rem = 7 px (browser default is 16)
-    }
 }
 
 body {
