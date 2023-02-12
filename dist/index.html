@@ -11,34 +11,44 @@
     <script src="main.js" defer></script>
 </head>
 <body>
-    <div class="content">
         <div class="header">
             <img src="../images/Coffee-Cup-Silhouette.svg">
             <h1>Todo List</h1>
         </div>
-        <div class="sideBar">
-            <div class="calendar">
-                <button class="all">All</button>
-                <button class="today">Today</button>
-                <button class="thisWeek">This Week</button>
+        <div class="content">
+            <div class="sideBar">
+                <div class="calendar">
+                    <button class="all">All</button>
+                    <button class="today">Today</button>
+                    <button class="thisWeek">This Week</button>
+                </div>
+                <div class="projects">
+                    <h2>Projects</h1>
+                    <button class="study">Study</button>
+                    <button class="add">Add Project</button>
+                </div>
+                <div class="notes">
+                    <button class="notes"><h2>Notes</h2></button>
+                </div>
             </div>
-            <div class="projects">
-                <h2>Projects</h1>
-                <button class="study">Study</button>
-                <button class="add">Add Project</button>
-            </div>
-            <div class="notes">
-                <button class="notes"><h2>Notes</h2></button>
-            </div>
+            <div class="main">
+                <h2>All</h2>
+                <div class="todo">
+                    <button class="check-button">
+                        <div class="leftHalf">
+                            <img src="../images/Coffee-Cup-Silhouette.svg">
+                            <p>Button</p>
+                        </div>
+                        <div class="rightHalf">
+                            <p class="date">Date goes here</p>
+                            <p class="edit">Edit goes here</p>
+                            <p class="trash">Remove goes here</p>
+                        </div>
+                        
+                    </button>
+                </div>
+                <button class="addButton">Add</button>
+            </div> 
         </div>
-        <div class="main">
-            <div class="todo">
-                <button class="check-button">Button</button>
-                  
-                  
-            </div>
-        </div> 
-    </div>
-    
 </body>
 </html>

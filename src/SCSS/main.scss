@@ -1,12 +1,39 @@
-.check-button {
-    background-color: #ffffff;
-    border: 1px solid #000000;
-    color: #000000;
-    padding: 10px 20px;
-  }
-  
-  .check-button.checked {
-    background-color: #000000;
-    color: #ffffff;
-    text-decoration: line-through;
-  }
+.main {
+    padding: 20px 40px;
+    margin: 0 auto;
+    width: 900px;
+
+    button {
+            background-color: #ffffff;
+            border: 1px solid #000000;
+            color: #000000;
+            padding: 10px 20px;
+    }
+
+    .todo {
+        .check-button {
+            display: flex;
+            justify-content: space-between;
+
+            .leftHalf {
+                display: flex;
+            }
+
+            .rightHalf {
+                display: flex;
+            }
+        }
+
+        img {
+            width: 2rem;
+            height: 2rem;
+        }
+
+        .check-button.checked {
+                background-color: #000000;
+                color: #ffffff;
+                text-decoration: line-through;
+        }
+    }
+}
+

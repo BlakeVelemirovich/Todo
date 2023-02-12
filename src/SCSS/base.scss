@@ -33,6 +33,5 @@ body {
 }
 
 .content {
-    display: grid;
-    grid-template-columns: 21rem 1fr;
+    display: flex;
 }
