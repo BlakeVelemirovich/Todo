@@ -19,6 +19,8 @@ deleteButton.addEventListener('click', function() {
     this.parentNode.parentNode.remove();
 });
 
+
+//Todo constructor function
 const createNewTodo = (name) => {
 
     let newTodo = document.createElement('button');
