@@ -65,7 +65,7 @@ const createBtn = (name) => {
 
     let btn = document.createElement('input');
     btn.classList = name;
-    btn.innerText = name;
+    btn.value = name;
     btn.type = 'button';
     return btn;
 }
